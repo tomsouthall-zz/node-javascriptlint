@@ -220,20 +220,19 @@ lint = function(files, options, callback) {
           result = line.replace(' error(s)', '').replace(' warning(s)', '').split(',');
           result = {
             errors: parseInt(result[0]),
-            warnings: parseInt(result[1])
+            warnings: parseInt(result[1]),
+            message: data
           };
         }
       });
-      
-      console.log(data);
     });
     
     lintProcess.stderr.on('data', function(data) {
       result = {
         errors: 1,
-        warnings: 0
+        warnings: 0,
+        message: data.toString()
       };
-      console.log('\033[31mJavascriptLint failed: ' + data.toString() + '\033[0m');
     });
 
     lintProcess.on('exit', function(code) {

@@ -1,0 +1,35 @@
+{
+  "name": "javascriptlint",
+  "version": "0.0.1",
+  "description": "Javascript Lint tool based on JavascriptLint",
+  "homepage": "https://github.com/tomsouthall/node-javascriptlint",
+  "author": {
+    "name": "Tom Southall",
+    "email": "tsouthall@gmail.com"
+  },
+  "main": "index",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tomsouthall/node-javascriptlint.git"
+  },
+  "dependencies": {},
+  "keywords": [
+    "lint",
+    "jslint",
+    "javascriptlint"
+  ],
+  "_id": "node-minify@0.4.1",
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "_engineSupported": true,
+  "_npmVersion": "1.1.19",
+  "_nodeVersion": "v0.6.16",
+  "_defaultsLoaded": true,
+  "dist": {
+    "shasum": "9937bae0367d28cb3c5afd64f33fa6e4cffc4dd2"
+  },
+  "_from": "javascriptlint"
+}

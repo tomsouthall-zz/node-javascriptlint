@@ -173,7 +173,7 @@ createOptionsFile = function(tmpFile, files, options){
   
   //Check we are only being passed permitted options
   _.each(options, function(value, option){
-    if(!_.isUndefined(defaultOptions[option])) throw new Error('\033[31mThere is no JavascriptLint option called ' + option + '\033[0m');
+    if(_.isUndefined(defaultOptions[option])) throw new Error('\033[31mThere is no JavascriptLint option called ' + option + '\033[0m');
   });
   
   //Create file content based on options

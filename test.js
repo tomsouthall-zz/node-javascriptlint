@@ -13,4 +13,4 @@ lint(
   function(result){
     console.log('Test complete', result);
   }
-)
+);

@@ -1,4 +1,4 @@
 node-javascriptlint
 ===================
 
-A node wrapper for JavascriptLint
+A node.js wrapper for JavascriptLint - in development, check back soon...
